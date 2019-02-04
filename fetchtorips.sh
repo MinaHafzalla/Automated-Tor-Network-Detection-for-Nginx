@@ -1,0 +1,1 @@
+cd /usr/local/nginx/conf; wget "https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1" -O toripspage.txt; sed '1,3d' toripspage.txt > torips.txt; sed -e 's/$/ 1;/' -i torips.txt; sed -i '1s/^/geo $tor_user {\ndefault 0;\n/' torips.txt; sed -i '$s/$/\n}/' torips.txt
