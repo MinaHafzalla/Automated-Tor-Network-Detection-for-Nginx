@@ -5,7 +5,7 @@ Accepting online payments can be challenging if you are facing high volume of fr
 
 Huge number of fraud payments come from proxy servers that hackers use to hide their real locations and IP addresses. [Tor](https://www.torproject.org/) is one of the very popular proxy and anonymity service providers that hackers misuse to place online fraud orders.
 
-Today, I'm introducing a server-side script written in Bash which of its purpose is to restrict users from checking out on a website if it's being accessed using Tor. The script doesn't block users from navigating a website through Tor; however it only blocks acccess to the checkout prcoess and applies a redirection to another page informing users that orders over proxies are not allowed.
+Today, I'm introducing a server-side script written in Bash which of its purpose is to restrict users from checking out on a website if it's being accessed using Tor. The script doesn't block users from navigating a website through Tor; however it only blocks acccess to the checkout process and applies a redirection to another page informing users that orders over proxies are not allowed.
 
 <br />
 
