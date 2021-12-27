@@ -1,5 +1,3 @@
-*Developed by Mina Hafzalla*
-
 # Automated Tor Network Detection for Nginx
 Accepting online payments can be challenging if you are facing high volume of fraudulent transactions; combating online fraud requires various security measures and tactics.
 
