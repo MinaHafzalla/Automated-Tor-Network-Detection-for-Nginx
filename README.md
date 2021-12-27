@@ -82,4 +82,4 @@ This will block access to the checkout page only and not the whole website.
 <br />
 
 # Feedback
-Should you have any feedback or questions please leave a comment or contact me at mina@netmoly.com
+Should you have any feedback or questions please leave a comment or contact me at minahafzalla@gmail.com
